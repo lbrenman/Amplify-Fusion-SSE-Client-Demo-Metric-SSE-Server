@@ -1,0 +1,18 @@
+openapi: 3.1.0
+info:
+  title: Server Metrics SSE API
+  version: 1.0.0
+paths:
+  /sse-metrics-from-server:
+    get:
+      summary: Get data back
+      responses:
+        "200":
+          description: Stream of live server metrics data
+          content:
+            text/event-stream:
+              schema: {}
+              example: |
+                data: {"timestamp": "2025-11-15T01:17:37.575Z","service": "api-gateway","region": "us-west-2","metrics": {"cpuPercent": 34.26,"memoryPercent": 30.84,"requestRatePerSec": 589,"errorRatePerSec": 3.84,"latencyMsP95": 375}}
+components:
+  responses: {}
