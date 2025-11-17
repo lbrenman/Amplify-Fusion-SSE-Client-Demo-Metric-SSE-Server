@@ -4,7 +4,9 @@ This is a demo project of the Amplify Fusion SSE Client artifact which can conne
 
 In this demo it connects to a [Mock Metric server](https://github.com/lbrenman/nodejs-express-sse-mock-metrics-server-codespace) which can run in [GitHub CodeSpace](https://github.com/features/codespaces).
 
-The current implementation filters the SSE server events and sends them to an client connected to an API exposed in Fusion.
+A video of the demo can be viewed [here](https://youtu.be/r4Sdjiox30E).
+
+The demo filters the SSE server events and sends them to an client connected to an event-stream API exposed in Fusion.
 
 ![Imgur](https://imgur.com/Tx7GJyd.png)
 ![Imgur](https://imgur.com/N80sUxL.png)
