@@ -1,6 +1,6 @@
 # Amplify Fusion SSE Client Demo
 
-This is a demo project of the Amplify Fusion SSE Client artifact which can connect to an SSE Server.
+This is a demo project of the Amplify Fusion SSE Client connector which can connect to an SSE Server tp stremm data to an API with text/event-stream. It also demonstrates an AsyncAPI and an SSE Publish component.
 
 In this demo it connects to a [Mock Metric server](https://github.com/lbrenman/nodejs-express-sse-mock-metrics-server-codespace) which can run in [GitHub CodeSpace](https://github.com/features/codespaces).
 
